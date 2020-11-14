@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42c38ce7-d69b-48c3-abd8-b5a5b59e33d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/BookType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/BookType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605026660808</updated>
       <workItem from="1605026662024" duration="11328000" />
-      <workItem from="1605358161327" duration="12753000" />
+      <workItem from="1605358161327" duration="12824000" />
     </task>
     <servers />
   </component>
