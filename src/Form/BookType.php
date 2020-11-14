@@ -23,7 +23,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class BookType extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options) :void
     {
         $builder
             ->add('book_name', TextType::class, ['label' => 'Наименование книги'])
@@ -33,7 +33,7 @@ class BookType extends AbstractType
         ;
     }
 
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver) :void
     {
         $resolver->setDefaults([
             'data_class' => Books::class,
