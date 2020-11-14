@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Новая книга{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+    {#    таблица используется для структурированного вывода всех элементов формы посредством цикла for#}
+    {#    каждая итерация - вывод лэйбла и соответствующего поля формы в новой строке#}
+    {#    преимущество данного метода в том, что шаблон не зависит от количества параметров у книг#}
+    <table>
+        {% for child in form %}
+            {% if 'token' not in form_label(child) %}
+                <tr>
+                    <td>{{ form_label(child) }}</td>
+                    <td>{{ form_widget(child) }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    {{ form_end(form) }}
+
+    <br><a href="{{ path("books") }}">Вернуться к списку книг</a>
+
+{% endblock %}

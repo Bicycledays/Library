@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Библиотека{% endblock %}
+
+{% block body %}
+{#<style>#}
+{#    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }#}
+{#</style>#}
+
+<div class="example-wrapper">
+    <h1>Добро пожаловать в библиотеку!</h1>
+
+
+    <table rules="all">
+        <tr>
+            <th>Наименование книги</th>
+            <th>Автор</th>
+            <th>Год публикации</th>
+        </tr>
+
+        {% for book in books %}
+        <tr>
+            <td>{{ book.getBookName() }}</td>
+            <td>{{ book.getBookAuthor() }}</td>
+            <td align="center">{{ book.getPublishingYear() }}</td>
+            <td><a href="{{ "/editBook/" ~ book.id }}">Редактировать</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ path("createBook") }}">Добавить книгу в библиотеку</a><br>
+</div>
+
+{% endblock %}
