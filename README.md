@@ -22,7 +22,7 @@ GIT
 git clone https://github.com/Bicycledays/Library.git
 ```
 ### Загрузка необходимых пакетов
-Из корневой директории выполни
+Из корневой директории проекта выполни
 ```
 composer install
 ```
