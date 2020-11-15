@@ -19,8 +19,9 @@ GIT
 ## Последовательность установки
 ### Убедись, что в php.ini включены
 ```
-extension=openssl
-extension=pdo_mysql
+extension = openssl
+extension = pdo_mysql
+extension_dir = "ext"
 ```
 ### Загрузка проекта через cmd
 ```
