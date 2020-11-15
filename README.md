@@ -17,6 +17,11 @@ MySQL
 GIT
 ```
 ## Последовательность установки
+### Убедись, что в php.ini включены
+```
+extension=openssl
+extension=pdo_mysql
+```
 ### Загрузка проекта через cmd
 ```
 git clone https://github.com/Bicycledays/Library.git
