@@ -41,12 +41,12 @@ class Books
      */
     private $book_author;
 
-    public function getId(): ?int
+    public function getId(): int
     {
         return $this->id;
     }
 
-    public function getBookName(): ?string
+    public function getBookName(): string
     {
         return $this->book_name;
     }
@@ -58,7 +58,7 @@ class Books
         return $this;
     }
 
-    public function getPublishingYear(): ?int
+    public function getPublishingYear(): int
     {
         return $this->publishing_year;
     }
@@ -70,7 +70,7 @@ class Books
         return $this;
     }
 
-    public function getBookAuthor(): ?string
+    public function getBookAuthor(): string
     {
         return $this->book_author;
     }
