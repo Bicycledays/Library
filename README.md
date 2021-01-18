@@ -1,7 +1,6 @@
-# Цель проекта
 Привет! Перед тобой репозиторий веб-приложения, написанного с помощью Symfony framework
 
-[Требования к проекту и формулировка задания](https://docs.google.com/document/d/1oLVERmGIS5ArjBgMJjpcua0B9jymdqfGkNMQMSY0f5w/edit?usp=sharing)
+[Постановка задачи и цель проекта](https://docs.google.com/document/d/1oLVERmGIS5ArjBgMJjpcua0B9jymdqfGkNMQMSY0f5w/edit?usp=sharing)
 
 # Установка и запуск
 ## Убедись, что у тебя установлены
